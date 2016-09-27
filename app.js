@@ -1,4 +1,4 @@
-var app = angular.module("MyProject", []);
+var app = angular.module("Pokedex", []);
 
 app.controller("info", function($scope, $http){
 
