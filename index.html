@@ -1,0 +1,16 @@
+<html ng-app="Pokedex">
+<head>
+	<title>Mi proyecto</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	<script src="app.js"></script>
+</head>
+<body ng-controller="info">
+	<input type="text" ng-model="pokemon">
+	<button ng-click="buscar()">Traer informacion</button>
+	<div>
+		Nombre:  {{ nombre }}<br>
+		Numero: {{ numero }}<br>
+		<img src="{{ foto }}" />
+	</div>
+</body>
+</html>
